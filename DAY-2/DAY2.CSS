@@ -1,0 +1,120 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  
+    background-color: #f5f5f5; 
+    transition: background-color 0.3s ease; 
+}
+
+body:hover {
+    background-color: #ffed99; 
+}
+
+
+.margin {
+    border: 2px dotted black; 
+    width: 500px;
+    height: 350px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around; 
+    align-items: center;
+    background-color: white;
+    padding: 20px; 
+    margin: 20px; 
+    transition: background-color 0.3s ease; 
+}
+
+.margin:hover {
+    background-color: #a29bfe; 
+}
+
+
+.border {
+    border: 2px solid black;
+    width: 100%; 
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px; 
+    background-color: white;
+    transition: background-color 0.3s ease; 
+}
+
+.border:hover {
+    background-color: #ff7675; 
+}
+
+
+.padding {
+    border: 2px dotted black;
+    width: 100%; 
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 20px;
+    background-color:white;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.padding:hover {
+    background-color: #55efc4; 
+}
+
+
+.content {
+    border: 2px solid black;
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 15px; 
+    margin: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.content:hover {
+    background-color: #74b9ff; 
+    transform: scale(1.05); 
+}
+
+
+.m1 {
+    font-size: 16px;
+    margin-bottom: 10px; 
+    padding-right: 350px; 
+}
+
+.m2 {
+    font-size: 16px;
+    margin-bottom: 10px; 
+    padding-right: 300px;
+}
+
+.m3 {
+    font-size: 16px;
+    margin-bottom: 10px; 
+    padding-right: 200px; 
+}
+
+.m4 {
+    font-size: 16px;
+    margin-bottom: 10px; 
+    padding-right: 100px; 
+    margin-bottom: 50px; 
+}
