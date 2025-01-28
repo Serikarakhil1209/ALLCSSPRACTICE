@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -7,12 +7,12 @@ body {
   background-color: white;
 }
 
-/* Navigation Styles */
+
 .nav {
   background-color: white;
   color: black;
   height: 30px;
-  padding-top: 20px;
+ 
   padding-bottom: 15px;
   padding-left: 10px;
   position: fixed;
