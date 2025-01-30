@@ -44,7 +44,14 @@ td {
     color: white;
 }
 
-#icons{
+.white :hover{
+    cursor: pointer;
+    transform: scale(1.5); 
+    transition: all 0.3s ease-in-out;
+    
+}
+.black :hover{
+    cursor: pointer;
     transform: scale(1.5); 
     transition: all 0.3s ease-in-out;
 }
