@@ -1,0 +1,12 @@
+.main{
+    padding-left: 40px;
+    border: 2px solid black;
+    background-color: aquamarine;
+    width: 40vh;
+    margin-left: 40%;
+    margin-top: 10%;
+    display: flex;  
+}
+item1,item2,item3,item4{
+    column-gap: 30px;
+}

@@ -118,3 +118,10 @@ body:hover {
     padding-right: 100px; 
     margin-bottom: 50px; 
 }
+.margin{
+    display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; 
+  animation-duration: 2s; 
+}

@@ -82,3 +82,8 @@ center{
     background-color: black;
     color: white;
 }
+
+.imgcard{
+    animation: bounce;
+    animation-duration: 2s; 
+}
